@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olab Technologies - Your Partner in Digital Excellence</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="img/3.png" href="3.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <!-- =========== HEADER =========== -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center max-w-7xl">
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-2">
+                <img src="img/2-croped.png" alt="Olab Technologies Logo" class="w-auto h-8">
+            </a>
+
+            <!-- Desktop Menu (links injected via JS) -->
+            <div id="desktop-menu" class="hidden md:flex items-center space-x-6"></div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-900 focus:outline-none">
+                    <svg id="hamburger-icon" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="close-icon" class="w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu (links injected via JS) -->
+        <div id="menu" class="hidden md:hidden bg-white border-t border-gray-200"></div>
+    </header>
+
+
+
+
+
+    <!-- Main container for the Custom Web Development page -->
+    <div class="bg-white">
+
+        <!-- Section 1: Hero Section -->
+        <div class="relative bg-cover bg-center py-24 md:py-32"
+            style="background-image: url('img/Team-Lead-Intern-at-Amazon.jpg');">
+            <div class="absolute inset-0 bg-black/70 z-0"></div>
+            <div class="relative container mx-auto px-6 text-center z-10">
+                <h1 class="text-4xl md:text-6xl font-bold text-white tracking-tight">
+                    Your Vision, Unrestricted.
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
+                    Break free from the limitations of pre-built templates. We craft bespoke websites that are as unique
+                    as
+                    your brand, designed to engage your audience and achieve your specific business goals.
+                </p>
+                <a href="#contact"
+                    class="mt-8 inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-full text-lg hover:bg-gray-200 transition">
+                    Get a Custom Quote
+                </a>
+            </div>
+        </div>
+
+        <!-- Section 2: Why Go Custom? (Template vs. Custom) -->
+        <div class="py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">Escape the Template Trap</h2>
+                    <div class="w-20 h-1 bg-gray-800 mx-auto mt-4"></div>
+                    <p class="mt-6 text-lg text-gray-500 max-w-2xl mx-auto">A generic template can limit your growth. A
+                        custom solution empowers it.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                    <!-- The Problem: Template Limitations -->
+                    <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                        <h3 class="text-2xl font-bold text-black mb-4">Template Limitations</h3>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">&#10007;</span>Limited
+                                design
+                                and functionality.</li>
+                            <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">&#10007;</span>Slow
+                                performance due to bloated code.</li>
+                            <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">&#10007;</span>Potential
+                                security vulnerabilities.</li>
+                            <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">&#10007;</span>Difficult
+                                to
+                                scale with your business.</li>
+                        </ul>
+                    </div>
+                    <!-- The Solution: Custom Advantage -->
+                    <div class="bg-black p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-white mb-4">The Custom Advantage</h3>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start"><span class="text-green-400 mr-3 mt-1">&#10003;</span>A unique
+                                design that reflects your brand.</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-3 mt-1">&#10003;</span>Optimized
+                                for
+                                speed and peak performance.</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-3 mt-1">&#10003;</span>Enhanced
+                                security built for your needs.</li>
+                            <li class="flex items-start"><span
+                                    class="text-green-400 mr-3 mt-1">&#10003;</span>Infinitely
+                                scalable as your business grows.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Our Custom Web Solutions -->
+        <div class="bg-gray-50 py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">What We Build</h2>
+                    <div class="w-20 h-1 bg-gray-800 mx-auto mt-4"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card: Dynamic Website Development -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                        <h3 class="text-xl font-bold text-black mb-2">Dynamic Website Development</h3>
+                        <p class="text-gray-600">Perfect for interactive experiences, user accounts, content management
+                            systems (CMS), and real-time data. We build robust, database-driven websites that are
+                            engaging
+                            for users and easy for you to manage.</p>
+                    </div>
+                    <!-- Card: Static Website Development -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                        <h3 class="text-xl font-bold text-black mb-2">Static Website Development</h3>
+                        <p class="text-gray-600">Ideal for portfolios, landing pages, and brochure sites where speed and
+                            security are paramount. We create blazing-fast, secure, and highly reliable websites that
+                            deliver an exceptional user experience.</p>
+                    </div>
+                    <!-- Card: Payment Gateway Integration -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                        <h3 class="text-xl font-bold text-black mb-2">Payment Gateway Integration</h3>
+                        <p class="text-gray-600">Enable seamless and secure transactions. We integrate trusted gateways
+                            like
+                            Stripe, Razorpay, and PayPal, ensuring your customers enjoy a smooth and safe checkout
+                            experience on your custom site.</p>
+                    </div>
+                    <!-- Card: Foundational SEO -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                        <h3 class="text-xl font-bold text-black mb-2">Foundational SEO</h3>
+                        <p class="text-gray-600">A beautiful website is useless if no one can find it. We build every
+                            site
+                            with a strong SEO foundation, ensuring it's structured to be discoverable by search engines
+                            and
+                            drive organic traffic.</p>
+                    </div>
+                    <!-- Card: Social Media Optimisation -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                        <h3 class="text-xl font-bold text-black mb-2">Social Media Optimisation</h3>
+                        <p class="text-gray-600">Amplify your brand's voice across the web. We ensure your website is
+                            perfectly integrated with your social media channels, making content easy to share and
+                            driving
+                            engagement back to your site.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Technology Stack -->
+        <div class="bg-white py-20 md:py-24">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">Built with Modern Technology</h2>
+                <div class="w-20 h-1 bg-gray-800 mx-auto mt-4"></div>
+                <p class="mt-6 text-lg text-gray-500 max-w-2xl mx-auto">We use a flexible, powerful tech stack to build
+                    solutions that are not only effective today but also scalable for tomorrow.</p>
+                <div class="mt-12 flex flex-wrap justify-center items-center gap-x-8 md:gap-x-12 gap-y-6">
+
+                    <!-- Frontend Technologies -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <!-- <img src="https://cdn.worldvectorlogo.com/logos/vue-js-1.svg" alt="Vue.js"
+                        class="h-12 filter grayscale hover:grayscale-0 transition"> -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/angular-icon.svg" alt="Angular"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Tailwind CSS"
+                        class="h-10 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" alt="Bootstrap"
+                        class="h-10 filter grayscale hover:grayscale-0 transition">
+
+                    <!-- Backend Tech -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="Node.js"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="Express JS"
+                        class="h-10 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" alt="Laravel"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <!-- <img src="https://cdn.worldvectorlogo.com/logos/php-1.svg" alt="PHP"
+                        class="h-12 filter grayscale hover:grayscale-0 transition"> -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+
+                    <!-- Databases -->
+                    <!-- <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="MySQL"
+                        class="h-12 filter grayscale hover:grayscale-0 transition"> -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="PostgreSQL"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB"
+                        class="h-10 filter grayscale hover:grayscale-0 transition">
+
+                    <!-- Mobile App -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/flutter.svg" alt="Flutter"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" alt="React Native"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+
+                    <!-- CMS / E-commerce -->
+                    <!-- <img src="https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg" alt="WordPress"
+                        class="h-10 filter grayscale hover:grayscale-0 transition"> -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/shopify.svg" alt="Shopify"
+                        class="h-10 filter grayscale hover:grayscale-0 transition">
+
+                    <!-- Cloud / DevOps -->
+                    <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" alt="AWS"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" alt="Firebase"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+                    <img src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="Docker"
+                        class="h-12 filter grayscale hover:grayscale-0 transition">
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section 2.5: Full-Stack Development & Ownership Benefits -->
+        <div class="bg-black text-white py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                    <!-- Column 1: Visual Icon/Graphic -->
+                    <div class="text-center">
+                        <!-- A strong visual representing code, ownership, or freedom -->
+                        <img src="img/lock-6806514_1920.png" alt="Coding Illustration"
+                            class="w-120 mx-auto object-contain filter grayscale hover:grayscale-0 transition" />
+                    </div>
+
+                    <!-- Column 2: Text Content & Benefits -->
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold tracking-tight">
+                            Full-Stack Power, Full Ownership.
+                        </h2>
+                        <p class="mt-4 text-lg text-gray-300">
+                            Unlike closed platforms that hold your website hostage, our full-stack development approach
+                            gives
+                            you complete control. We build your digital asset, and then we hand you the keys.
+                        </p>
+                        <div class="mt-8 space-y-6">
+                            <!-- Benefit 1: You Own the Code -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="flex items-center justify-center h-12 w-12 rounded-md bg-white/10 text-white">
+                                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg leading-6 font-bold text-white">You Own Your Code</h4>
+                                    <p class="mt-2 text-base text-gray-400">
+                                        It's your intellectual property. You receive the complete source code, giving
+                                        you the
+                                        freedom to host it anywhere and modify it with any developer in the future. No
+                                        vendor
+                                        lock-in, ever.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Benefit 2: Unlimited Customization -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <div
+                                        class="flex items-center justify-center h-12 w-12 rounded-md bg-white/10 text-white">
+                                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.438.995s.145.755.438.995l1.003.827c.424.35.534.954.26 1.431l-1.296 2.247a1.125 1.125 0 01-1.37.49l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.063-.374-.313-.686-.645-.87a6.52 6.52 0 01-.22-.127c-.324-.196-.72-.257-1.075-.124l-1.217.456a1.125 1.125 0 01-1.37-.49l-1.296-2.247a1.125 1.125 0 01.26-1.431l1.003-.827c.293-.24.438-.613-.438-.995s-.145-.755-.438-.995l-1.003-.827a1.125 1.125 0 01-.26-1.431l1.296-2.247a1.125 1.125 0 011.37-.49l1.217.456c.355.133.75.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.213-1.28z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg leading-6 font-bold text-white">Unlimited Customization</h4>
+                                    <p class="mt-2 text-base text-gray-400">
+                                        Need a unique integration with a third-party API? A specific workflow for your
+                                        users?
+                                        Custom development means there are no limits. If you can dream it, we can build
+                                        it—without platform restrictions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 6: Final CTA -->
+        <div id="contact" class="bg-gray-100">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black">Ready to build your custom web solution?</h2>
+                <p class="mt-4 text-lg max-w-2xl mx-auto">Let's discuss your project's unique requirements
+                    and
+                    how we can turn your vision into a high-performance reality.</p>
+                <a href="#"
+                    class="mt-8 inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-full text-lg hover:bg-gray-200 transform hover:scale-105 transition">Start
+                    a Project</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =========== FOOTER =========== -->
+    <footer class="bg-[#000000] text-gray-300">
+        <div class="container mx-auto py-12 px-6 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Column 1: About -->
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center space-x-2 mb-4">
+                        <img src="img/1-croped.png" alt="Olab Technologies Logo" class="w-auto h-8">
+                    </a>
+                    <p class="text-gray-400 mb-4">
+                        Your partner in building powerful, high-performance websites and Shopify
+                        stores that drive growth.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        <strong>Address:</strong> Pune, Maharashtra, India<br>
+                        <strong>Hours:</strong> Mon–Sat, 9:00 AM – 6:00 PM IST<br>
+                        <strong>Phone:</strong> <a href="tel:+919876543210" class="hover:text-white transition">+91
+                            98765 43210</a>
+                    </p>
+                </div>
+
+                <!-- Column 2: Web Solutions -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Web Solutions</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Dynamic Websites</a></li>
+                        <li><a href="#" class="hover:text-white transition">Static Websites</a></li>
+                        <li><a href="#" class="hover:text-white transition">Payment Integration</a></li>
+                        <li><a href="#" class="hover:text-white transition">SEO</a></li>
+                        <li><a href="#" class="hover:text-white transition">Website Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Shopify Services -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Shopify Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Store Setup</a></li>
+                        <li><a href="#" class="hover:text-white transition">Theme Customization</a></li>
+                        <li><a href="#" class="hover:text-white transition">Speed Optimization</a></li>
+                        <li><a href="#" class="hover:text-white transition">Migration to Shopify</a></li>
+                        <li><a href="#" class="hover:text-white transition">Shopify App Integration</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Connect -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Connect With Us</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="https://www.instagram.com/olab_tech/"
+                            class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://x.com/olab_tech?s=21" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/rohit-bhosale-614679229/"
+                            class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a href="https://github.com/itsrohit-02/" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                    <p class="text-gray-400 mb-3">
+                        Email: <a href="mailto:projects@olab-tech.com"
+                            class="hover:text-white transition">projects@olab-tech.com</a>
+                    </p>
+
+                    <!-- Newsletter Signup -->
+                    <form id="newsletterForm" class="mt-4">
+                        <label for="email" class="sr-only">Subscribe</label>
+                        <div class="flex relative">
+                            <input id="email" type="text" placeholder="Enter your email"
+                                class="w-full px-3 py-2 rounded-l-md text-gray-900 focus:outline-none border border-gray-300 focus:ring-2 focus:ring-blue-500"
+                                required>
+                            <button id="subscribeBtn" type="submit" class="py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-r-md border border-gray-200 
+                                     hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 
+                                     dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 
+                                     dark:hover:text-white dark:hover:bg-gray-700 transition relative">
+                                <span id="btnText">Subscribe</span>
+                                <span id="btnLoader" class="absolute right-3 top-1/2 transform -translate-y-1/2 hidden">
+                                    <svg class="animate-spin h-5 w-5 text-gray-700" xmlns="http://www.w3.org/2000/svg"
+                                        fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                            stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor"
+                                            d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 11-8 8z"></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <p id="feedback" class="text-xs mt-2"></p>
+                    </form>
+
+                    <!-- ================= GLOBAL LOADER ================= -->
+                    <div id="globalLoader"
+                        class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+                        <div class="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-white"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="mt-10 pt-6 border-t border-gray-700 text-center text-gray-500 text-sm">
+                <p>&copy; 2023 - <span id="current-year"></span> Olab Technologies. All Rights Reserved.</p>
+                <div class="mt-2 space-x-3">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a> |
+                    <a href="#" class="hover:text-white transition">Terms of Service</a> |
+                    <a href="#" class="hover:text-white transition">Cookie Policy</a>
+                </div>
+                <p class="mt-3 text-gray-600">Crafted with ❤️ by Olab Technologies | Empowering Businesses Online</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

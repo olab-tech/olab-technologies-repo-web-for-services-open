@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olab Technologies - Your Partner in Digital Excellence</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="img/3.png" href="3.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <!-- =========== HEADER =========== -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center max-w-7xl">
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-2">
+                <img src="img/2-croped.png" alt="Olab Technologies Logo" class="w-auto h-8">
+            </a>
+
+            <!-- Desktop Menu (links injected via JS) -->
+            <div id="desktop-menu" class="hidden md:flex items-center space-x-6"></div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-900 focus:outline-none">
+                    <svg id="hamburger-icon" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="close-icon" class="w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu (links injected via JS) -->
+        <div id="menu" class="hidden md:hidden bg-white border-t border-gray-200"></div>
+    </header>
+
+
+    <!-- Main container for the Digital Growth page -->
+    <div class="bg-white">
+
+        <!-- Section 1: Hero Section -->
+        <div class="relative bg-cover bg-center py-24 md:py-32"
+            style="background-image: url('img/628cd68ba6885e6489b7f4d6_growth-marketing-article-cover.jpg');">
+            <div class="absolute inset-0 bg-black/70 z-0"></div>
+            <div class="relative container mx-auto px-6 text-center z-10">
+                <h1 class="text-4xl md:text-6xl font-bold text-white tracking-tight">
+                    Your Website is Built. <br> Now, Let's Make It Grow.
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
+                    A launch is just the starting line. We implement data-driven strategies to attract your ideal
+                    audience,
+                    establish your authority, and convert traffic into revenue.
+                </p>
+                <a href="#contact"
+                    class="mt-8 inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-full text-lg hover:bg-gray-200 transition">
+                    Start Growing Today
+                </a>
+            </div>
+        </div>
+
+        <!-- Section 2: The Three Pillars of Digital Growth -->
+        <div class="bg-gray-50 py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">Our Growth Framework</h2>
+                    <div class="w-20 h-1 bg-gray-800 mx-auto mt-4"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Pillar 1: SEO -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-gray-500 group-hover:text-white"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white">Be Seen by Customers Who
+                            Matter
+                        </h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300">Through technical SEO, on-page
+                            optimization,
+                            and keyword strategy, we ensure your site ranks on Google for the terms that your ideal
+                            customers are searching for, driving valuable organic traffic.</p>
+                    </div>
+                    <!-- Pillar 2: Content & Authority (Blog) -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-gray-500 group-hover:text-white"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white">Become the Expert in Your
+                            Field
+                        </h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300">A strategic blog isn't just for writing;
+                            it's for winning customers. We help you create valuable content that answers questions,
+                            builds
+                            trust, and establishes your brand as the go-to authority.</p>
+                    </div>
+                    <!-- Pillar 3: Data & Results (Case Studies) -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-gray-500 group-hover:text-white"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white">Prove Your Impact with Data
+                        </h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300">Growth without proof is just a promise.
+                            We
+                            create detailed case studies that go beyond storytelling, using hard data like traffic
+                            growth,
+                            conversion rates, and ROI to showcase the true value of our work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Featured Resources -->
+        <!-- Section 3: Featured Resources (Interactive Cards) -->
+        <div class="bg-white py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">From Our Desk</h2>
+                    <div class="w-20 h-1 bg-gray-800 mx-auto mt-4"></div>
+                    <p class="mt-6 text-lg text-gray-500 max-w-2xl mx-auto">
+                        Insights, strategies, and results from our team of experts.
+                    </p>
+                </div>
+
+                <!-- Interactive Card Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+                    <!-- Featured Blog Post Card -->
+                    <a href="#" class="group block bg-white rounded-lg shadow-md border border-gray-200 
+                               overflow-hidden hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <!-- Image Container -->
+                        <div class="overflow-hidden">
+                            <img src="img/crm-7142692_1920.jpg" alt="Blog post thumbnail"
+                                class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <!-- Text Content Container -->
+                        <div class="p-6">
+                            <p class="text-sm text-blue-600 font-semibold">BLOG POST</p>
+                            <h3
+                                class="text-xl font-bold text-black mt-1 group-hover:text-blue-600 transition-colors duration-300">
+                                5 Shopify SEO Mistakes That Are Costing You Sales
+                            </h3>
+                            <p class="text-gray-600 mt-2">
+                                Discover the common errors Shopify store owners make and how you can fix them today to
+                                improve
+                                your ranking and drive more traffic...
+                            </p>
+                        </div>
+                    </a>
+
+                    <!-- Featured Case Study Card -->
+                    <a href="#" class="group block bg-white rounded-lg shadow-md border border-gray-200 
+                               overflow-hidden hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <!-- Image Container -->
+                        <div class="overflow-hidden">
+                            <img src="img/crm-7142692_1920.jpg" alt="Case study thumbnail"
+                                class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+                        </div>
+                        <!-- Text Content Container -->
+                        <div class="p-6">
+                            <p class="text-sm text-green-600 font-semibold">CASE STUDY</p>
+                            <h3
+                                class="text-xl font-bold text-black mt-1 group-hover:text-green-600 transition-colors duration-300">
+                                Result: How We Doubled Organic Traffic for a B2B Client
+                            </h3>
+                            <p class="text-gray-600 mt-2">
+                                A deep dive into the content and technical SEO strategy that led to a 112% increase in
+                                organic
+                                search traffic in just six months...
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Final CTA -->
+        <div id="contact" class="bg-gray-100">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black">Ready to Turn Your Website into a Growth Engine?
+                </h2>
+                <p class="mt-4 text-lg max-w-2xl mx-auto">Let's build a data-driven strategy to increase your traffic,
+                    enhance your authority, and boost your bottom line.</p>
+                <a href="#"
+                    class="mt-8 inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-full text-lg hover:bg-gray-200 transform hover:scale-105 transition">Schedule
+                    a Growth Strategy Session</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- =========== FOOTER =========== -->
+    <footer class="bg-[#000000] text-gray-300">
+        <div class="container mx-auto py-12 px-6 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Column 1: About -->
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center space-x-2 mb-4">
+                        <img src="img/1-croped.png" alt="Olab Technologies Logo" class="w-auto h-8">
+                    </a>
+                    <p class="text-gray-400 mb-4">
+                        Your partner in building powerful, high-performance websites and Shopify
+                        stores that drive growth.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        <strong>Address:</strong> Pune, Maharashtra, India<br>
+                        <strong>Hours:</strong> Mon–Sat, 9:00 AM – 6:00 PM IST<br>
+                        <strong>Phone:</strong> <a href="tel:+919876543210" class="hover:text-white transition">+91
+                            98765 43210</a>
+                    </p>
+                </div>
+
+                <!-- Column 2: Web Solutions -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Web Solutions</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Dynamic Websites</a></li>
+                        <li><a href="#" class="hover:text-white transition">Static Websites</a></li>
+                        <li><a href="#" class="hover:text-white transition">Payment Integration</a></li>
+                        <li><a href="#" class="hover:text-white transition">SEO</a></li>
+                        <li><a href="#" class="hover:text-white transition">Website Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Shopify Services -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Shopify Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Store Setup</a></li>
+                        <li><a href="#" class="hover:text-white transition">Theme Customization</a></li>
+                        <li><a href="#" class="hover:text-white transition">Speed Optimization</a></li>
+                        <li><a href="#" class="hover:text-white transition">Migration to Shopify</a></li>
+                        <li><a href="#" class="hover:text-white transition">Shopify App Integration</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Connect -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Connect With Us</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="https://www.instagram.com/olab_tech/"
+                            class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://x.com/olab_tech?s=21" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/rohit-bhosale-614679229/"
+                            class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a href="https://github.com/itsrohit-02/" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                    <p class="text-gray-400 mb-3">
+                        Email: <a href="mailto:projects@olab-tech.com"
+                            class="hover:text-white transition">projects@olab-tech.com</a>
+                    </p>
+
+                    <!-- Newsletter Signup -->
+                    <form id="newsletterForm" class="mt-4">
+                        <label for="email" class="sr-only">Subscribe</label>
+                        <div class="flex relative">
+                            <input id="email" type="text" placeholder="Enter your email"
+                                class="w-full px-3 py-2 rounded-l-md text-gray-900 focus:outline-none border border-gray-300 focus:ring-2 focus:ring-blue-500"
+                                required>
+                            <button id="subscribeBtn" type="submit" class="py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-r-md border border-gray-200 
+                                     hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 
+                                     dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 
+                                     dark:hover:text-white dark:hover:bg-gray-700 transition relative">
+                                <span id="btnText">Subscribe</span>
+                                <span id="btnLoader" class="absolute right-3 top-1/2 transform -translate-y-1/2 hidden">
+                                    <svg class="animate-spin h-5 w-5 text-gray-700" xmlns="http://www.w3.org/2000/svg"
+                                        fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                            stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor"
+                                            d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 11-8 8z"></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <p id="feedback" class="text-xs mt-2"></p>
+                    </form>
+
+                    <!-- ================= GLOBAL LOADER ================= -->
+                    <div id="globalLoader"
+                        class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+                        <div class="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-white"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="mt-10 pt-6 border-t border-gray-700 text-center text-gray-500 text-sm">
+                <p>&copy; 2023 - <span id="current-year"></span> Olab Technologies. All Rights Reserved.</p>
+                <div class="mt-2 space-x-3">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a> |
+                    <a href="#" class="hover:text-white transition">Terms of Service</a> |
+                    <a href="#" class="hover:text-white transition">Cookie Policy</a>
+                </div>
+                <p class="mt-3 text-gray-600">Crafted with ❤️ by Olab Technologies | Empowering Businesses Online</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

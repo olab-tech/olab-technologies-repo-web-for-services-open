@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olab Technologies - Your Partner in Digital Excellence</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="img/3.png" href="3.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <!-- =========== HEADER =========== -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center max-w-7xl">
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-2">
+                <img src="img/2-croped.png" alt="Olab Technologies Logo" class="w-auto h-8">
+            </a>
+
+            <!-- Desktop Menu (links injected via JS) -->
+            <div id="desktop-menu" class="hidden md:flex items-center space-x-6"></div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-900 focus:outline-none">
+                    <svg id="hamburger-icon" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <svg id="close-icon" class="w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu (links injected via JS) -->
+        <div id="menu" class="hidden md:hidden bg-white border-t border-gray-200"></div>
+    </header>
+
+
+
+    <!-- Main container for the Shopify E-commerce Services page -->
+    <div class="bg-white">
+
+        <!-- Section 1: Hero Section -->
+        <div class="relative bg-cover bg-center py-24 md:py-32"
+            style="background-image: url('img/2dbc48f43dded4e3e3d1ff7a7c34167f.png');">
+            <div class="absolute inset-0 bg-black/70 z-0"></div>
+            <div class="relative container mx-auto px-6 text-center z-10">
+                <h1 class="text-4xl md:text-6xl font-bold text-white tracking-tight">
+                    We Don't Just Build Stores. <br> We Build E-commerce Empires.
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-200 max-w-3xl mx-auto">
+                    From seamless store setups and migrations to performance optimization that boosts sales, we are your
+                    end-to-end Shopify growth partners.
+                </p>
+                <a href="#contact"
+                    class="mt-8 inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-full text-lg hover:bg-gray-200 transition">
+                    Supercharge Your Store
+                </a>
+            </div>
+        </div>
+
+        <!-- Section 2: Why Partner with a Shopify Expert? -->
+        <div class="py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- Text Content -->
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">
+                            More Than a Platform, It's an Ecosystem.
+                        </h2>
+                        <p class="mt-6 text-lg text-gray-600">
+                            Anyone can pick a theme. A Shopify Expert understands how to weave together design, apps,
+                            performance, and marketing strategy to create a powerful sales machine. We navigate the
+                            complexities so you can focus on what you do best: selling your products.
+                        </p>
+                        <ul class="mt-6 space-y-4 text-gray-600">
+                            <li class="flex items-center"><span class="text-green-500 mr-3">&#10003;</span> <span
+                                    class="font-semibold text-black mr-2">Maximize Conversions:</span> We turn more
+                                visitors
+                                into buyers.</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-3">&#10003;</span> <span
+                                    class="font-semibold text-black mr-2">Increase Speed:</span> A faster store means
+                                more
+                                sales, guaranteed.</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-3">&#10003;</span> <span
+                                    class="font-semibold text-black mr-2">Enhance Brand Identity:</span> We make your
+                                store
+                                look and feel uniquely yours.</li>
+                        </ul>
+                    </div>
+                    <!-- Image Placeholder -->
+                    <div class="h-80 lg:h-full bg-gray-200 rounded-lg shadow-md flex items-center justify-center">
+                        <!-- Placeholder for an image showing a beautiful Shopify storefront on multiple devices -->
+                        <img src="img/Essential-Jewellery-Mobile-Design-3-1920x922.png"
+                            alt="Responsive Shopify Storefront" class="w-full h-full object-cover rounded-lg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Our Shopify Services (Interactive B&W Cards) -->
+        <div class="bg-gray-50 py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">Our End-to-End Shopify
+                        Solutions
+                    </h2>
+                    <div class="w-20 h-1 bg-gray-800 mx-auto mt-4"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card 1: Shopify Store Setup -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white transition-colors">Shopify
+                            Store
+                            Setup</h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300 transition-colors">We handle the entire
+                            setup
+                            process from A-to-Z, delivering a turnkey store that's ready to launch and optimized from
+                            day
+                            one.</p>
+                    </div>
+                    <!-- Card 2: Shopify Theme Customization -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white transition-colors">Shopify
+                            Theme
+                            Customization</h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300 transition-colors">Stand out from the
+                            crowd.
+                            We customize your theme to match your unique brand identity and create a superior user
+                            experience.</p>
+                    </div>
+                    <!-- Card 3: Shopify Speed Optimization -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white transition-colors">Shopify
+                            Speed
+                            Optimization</h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300 transition-colors">A slow store kills
+                            sales.
+                            We conduct a deep-dive audit to eliminate bottlenecks and make your store lightning-fast.
+                        </p>
+                    </div>
+                    <!-- Card 4: Shopify SEO Services -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white transition-colors">Shopify SEO
+                            Services</h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300 transition-colors">Get found by customers
+                            who
+                            are ready to buy. We optimize your products, collections, and technical SEO to rank higher
+                            on
+                            Google.</p>
+                    </div>
+                    <!-- Card 5: Conversion Rate Optimization (CRO) -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white transition-colors">Conversion
+                            Rate
+                            Optimization</h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300 transition-colors">Turn more browsers
+                            into
+                            buyers. We analyze user behavior and A/B test changes to your store to systematically
+                            increase
+                            your sales.</p>
+                    </div>
+                    <!-- Card 6: Migration to Shopify -->
+                    <div
+                        class="group bg-white p-8 rounded-lg text-center border border-gray-200 hover:bg-black hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <h3 class="text-xl font-bold text-gray-900 group-hover:text-white transition-colors">Migration
+                            To
+                            Shopify</h3>
+                        <p class="mt-2 text-gray-600 group-hover:text-gray-300 transition-colors">Moving from another
+                            platform? We manage a seamless, stress-free migration with zero data loss and preserved SEO
+                            rankings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Mini-Case Study / Proof -->
+        <div class="bg-white py-20 md:py-24">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <div class="bg-black text-white rounded-lg p-10 md:p-16 grid md:grid-cols-3 gap-8 items-center">
+                    <div class="md:col-span-2">
+                        <h3 class="text-3xl font-bold">Case Study: Fashion Retailer</h3>
+                        <p class="mt-4 text-gray-300">A growing fashion brand was struggling with a slow WooCommerce
+                            site.
+                            We migrated them to Shopify, customized a premium theme, and ran a full speed optimization.
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-5xl font-bold text-green-400">+70%</p>
+                        <p class="text-lg text-gray-300">Increase in Conversion Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: Our Shopify Clients (Logo Marquee) -->
+        <div class="bg-white py-20 md:py-24">
+            <div class="container mx-auto px-6">
+                <!-- Section Title -->
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-black tracking-tight">Trusted by Ambitious Brands
+                    </h2>
+                    <div class="w-20 h-1 bg-gray-800 mx-auto mt-4"></div>
+                </div>
+
+                <!-- Marquee Container -->
+                <!-- The 'group' class is still essential for the pause-on-hover effect -->
+                <div class="relative w-full overflow-hidden group">
+                    <!-- 
+                        We've removed 'animate-marquee' and added an ID for our JavaScript to target.
+                    -->
+                    <div id="marquee-content" class="flex group-hover:[animation-play-state:paused]">
+
+                        <!-- Logo Set 1 -->
+                        <div class="flex-shrink-0 flex items-center justify-around w-full">
+                            <!-- IMPORTANT: Replace these with your client logos. Use SVG or transparent PNG. -->
+                            <img src="path/to/client-logo-1.svg" alt="Client 1"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-2.svg" alt="Client 2"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-3.svg" alt="Client 3"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-4.svg" alt="Client 4"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-5.svg" alt="Client 5"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-6.svg" alt="Client 6"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+
+                        <!-- Logo Set 2 (Duplicate for seamless loop) -->
+                        <div class="flex-shrink-0 flex items-center justify-around w-full">
+                            <img src="path/to/client-logo-1.svg" alt="Client 1"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-2.svg" alt="Client 2"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-3.svg" alt="Client 3"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-4.svg" alt="Client 4"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-5.svg" alt="Client 5"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src="path/to/client-logo-6.svg" alt="Client 6"
+                                class="h-8 md:h-10 mx-8 filter grayscale hover:grayscale-0 transition-all duration-300" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5: Final CTA -->
+        <div id="contact" class="bg-gray-100">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black">Ready to build your custom web solution?</h2>
+                <p class="mt-4 text-lg max-w-2xl mx-auto">Let's discuss your project's unique requirements
+                    and
+                    how we can turn your vision into a high-performance reality.</p>
+                <a href="#"
+                    class="mt-8 inline-block bg-white text-gray-900 font-semibold px-8 py-3 rounded-full text-lg hover:bg-gray-200 transform hover:scale-105 transition">Start
+                    a Project</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- =========== FOOTER =========== -->
+    <footer class="bg-[#000000] text-gray-300">
+        <div class="container mx-auto py-12 px-6 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Column 1: About -->
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center space-x-2 mb-4">
+                        <img src="img/1-croped.png" alt="Olab Technologies Logo" class="w-auto h-8">
+                    </a>
+                    <p class="text-gray-400 mb-4">
+                        Your partner in building powerful, high-performance websites and Shopify
+                        stores that drive growth.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        <strong>Address:</strong> Pune, Maharashtra, India<br>
+                        <strong>Hours:</strong> Mon–Sat, 9:00 AM – 6:00 PM IST<br>
+                        <strong>Phone:</strong> <a href="tel:+919876543210" class="hover:text-white transition">+91
+                            98765 43210</a>
+                    </p>
+                </div>
+
+                <!-- Column 2: Web Solutions -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Web Solutions</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Dynamic Websites</a></li>
+                        <li><a href="#" class="hover:text-white transition">Static Websites</a></li>
+                        <li><a href="#" class="hover:text-white transition">Payment Integration</a></li>
+                        <li><a href="#" class="hover:text-white transition">SEO</a></li>
+                        <li><a href="#" class="hover:text-white transition">Website Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Shopify Services -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Shopify Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Store Setup</a></li>
+                        <li><a href="#" class="hover:text-white transition">Theme Customization</a></li>
+                        <li><a href="#" class="hover:text-white transition">Speed Optimization</a></li>
+                        <li><a href="#" class="hover:text-white transition">Migration to Shopify</a></li>
+                        <li><a href="#" class="hover:text-white transition">Shopify App Integration</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Connect -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4 uppercase tracking-wider">Connect With Us</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="https://www.instagram.com/olab_tech/"
+                            class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://x.com/olab_tech?s=21" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/rohit-bhosale-614679229/"
+                            class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a href="https://github.com/itsrohit-02/" class="text-gray-400 hover:text-white transition"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                    <p class="text-gray-400 mb-3">
+                        Email: <a href="mailto:projects@olab-tech.com"
+                            class="hover:text-white transition">projects@olab-tech.com</a>
+                    </p>
+
+                    <!-- Newsletter Signup -->
+                    <form id="newsletterForm" class="mt-4">
+                        <label for="email" class="sr-only">Subscribe</label>
+                        <div class="flex relative">
+                            <input id="email" type="text" placeholder="Enter your email"
+                                class="w-full px-3 py-2 rounded-l-md text-gray-900 focus:outline-none border border-gray-300 focus:ring-2 focus:ring-blue-500"
+                                required>
+                            <button id="subscribeBtn" type="submit" class="py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-r-md border border-gray-200 
+                                     hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 
+                                     dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 
+                                     dark:hover:text-white dark:hover:bg-gray-700 transition relative">
+                                <span id="btnText">Subscribe</span>
+                                <span id="btnLoader" class="absolute right-3 top-1/2 transform -translate-y-1/2 hidden">
+                                    <svg class="animate-spin h-5 w-5 text-gray-700" xmlns="http://www.w3.org/2000/svg"
+                                        fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                            stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor"
+                                            d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 11-8 8z"></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <p id="feedback" class="text-xs mt-2"></p>
+                    </form>
+
+                    <!-- ================= GLOBAL LOADER ================= -->
+                    <div id="globalLoader"
+                        class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+                        <div class="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-white"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="mt-10 pt-6 border-t border-gray-700 text-center text-gray-500 text-sm">
+                <p>&copy; 2023 - <span id="current-year"></span> Olab Technologies. All Rights Reserved.</p>
+                <div class="mt-2 space-x-3">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a> |
+                    <a href="#" class="hover:text-white transition">Terms of Service</a> |
+                    <a href="#" class="hover:text-white transition">Cookie Policy</a>
+                </div>
+                <p class="mt-3 text-gray-600">Crafted with ❤️ by Olab Technologies | Empowering Businesses Online</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
